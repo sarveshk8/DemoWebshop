@@ -15,7 +15,7 @@ public class BaseConfig {
 
 	public WebDriver setup(String Port) throws MalformedURLException {
 		if (Port.equalsIgnoreCase("5555")) {
-			nodeURL = "http://192.168.1.11:4444/wd/hub";
+			nodeURL = "http://192.168.1.42:4444/wd/hub";
 			System.out.println("Chrome Browser Initiated");
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setBrowserName("chrome");
@@ -29,7 +29,7 @@ public class BaseConfig {
 		}
 
 		else if (Port.equalsIgnoreCase("6666")) {
-			nodeURL = "http://192.168.1.11:4444/wd/hub";
+			nodeURL = "http://192.168.1.42:4444/wd/hub";
 			System.out.println("Microsoft Edge Browser Initiated");
 			DesiredCapabilities capabilities1 = DesiredCapabilities.edge();
 			capabilities1.setBrowserName("MicrosoftEdge");
