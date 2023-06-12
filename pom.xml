@@ -71,15 +71,6 @@
     <scope>test</scope>
 </dependency>
 
-  	<dependency>
-  		<groupId>manipal</groupId>
-  		<artifactId>axis</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>Manipal</groupId>
-  		<artifactId>Axis_0298457</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
 </project>
